@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Couleurs inspirées de Sea of Thieves */
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Styles pour les fonctionnalités */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* Styles pour la section "À propos" */
+.about {
+    background-color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1rem;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #0a0a0a;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* Liens */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+
+#boat-image {
+    max-width: 20%; /* Réduire la largeur de l'image pour qu'elle s'adapte à la largeur de son conteneur */
+    height: auto; /* Conserver le ratio hauteur/largeur de l'image */
+}
